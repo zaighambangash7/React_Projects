@@ -1,0 +1,63 @@
+react:
+a javaScript library is used to create good user interface and is a single page application (SPA).
+
+components:
+all the info are kept in components so that the program is structured and to ignore repeatation. 
+
+functional Component:
+
+React Fragment <>
+
+fat arrow function:
+() => { }
+
+Map:
+The map() function is used to iterate over an array and manipulate or change data items.
+In React, the map() function is most commonly used for rendering a list of data to the DOM
+
+JSX:
+javascript syntax extended
+
+hooks data:
+should be just below the component:
+
+props:
+props is nothing just importing and exporting data
+<menuCard menudata={menudata};
+dual props:
+<Navbar filterItem = {filterItem} menuList = {menuList}
+
+new set:
+the function which make the set of your data
+
+spread function:
+... which give us the unique data in array form.
+const uniqueList = [
+  ...new Set(
+    Menu.map((curElem) => {
+      return curElem.category;
+    })
+  ),
+  "All",
+];
+
+disstructure:
+{menuData.map((curElem) => {
+          const { id, name, category, image, description } = curElem;
+
+
+TERNETARY OPERATOR:
+onClick={() =>(myNum > 0 ? setMyNum(myNum-1) : setMyNum(myNum=0))}
+
+
+
+SOME COMMON SHORTCUTS:
+1.to open vs code in current folder==> cmd in folder link bar command prompt will open now write "code ."
+2.rafce fat arrow function
+3.ctrl ? to comment selected code
+4.ctrl d to select the duplicate values
+5.ctrl f to find a specific object(word)
+
+TAG LINE:
+
+DO NOT REPEAT YOUR SELF!!!
